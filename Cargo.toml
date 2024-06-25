@@ -24,9 +24,9 @@ pr-run-mode = "plan"
 # Publish jobs to run in CI
 publish-jobs = ["./publish-crates"]
 # Whether to install an updater program
-install-updater = true
+# install-updater = true
 # Whether to use native system certs with TLS
-native-certs = true
+# native-certs = true
 
 # The profile that 'cargo dist' will build with
 [profile.dist]
